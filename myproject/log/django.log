@@ -1,0 +1,694 @@
+INFO 2024-05-08 23:40:23,912 autoreload 15720 4152 Watching for file changes with StatReloader
+INFO 2024-05-08 23:40:27,430 basehttp 15720 24820 "GET / HTTP/1.1" 200 261
+WARNING 2024-05-08 23:40:27,949 log 15720 24820 Not Found: /favicon.ico
+WARNING 2024-05-08 23:40:27,949 basehttp 15720 24820 "GET /favicon.ico HTTP/1.1" 404 3075
+INFO 2024-05-08 23:41:02,047 basehttp 15720 24820 "GET /edit_commodity/1 HTTP/1.1" 301 0
+ERROR 2024-05-08 23:41:02,079 log 15720 10568 Internal Server Error: /edit_commodity/1/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 53, in edit_commodity
+    return render(request, 'myapp/edit_commodity.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/edit_commodity.html
+ERROR 2024-05-08 23:41:02,081 basehttp 15720 10568 "GET /edit_commodity/1/ HTTP/1.1" 500 84904
+WARNING 2024-05-08 23:41:17,591 log 15720 10568 Not Found: /edit_commodity
+WARNING 2024-05-08 23:41:17,591 basehttp 15720 10568 "GET /edit_commodity HTTP/1.1" 404 3084
+ERROR 2024-05-08 23:43:04,070 log 15720 10568 Internal Server Error: /edit_commodity/1/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 53, in edit_commodity
+    return render(request, 'myapp/edit_commodity.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/edit_commodity.html
+ERROR 2024-05-08 23:43:04,072 basehttp 15720 10568 "GET /edit_commodity/1/ HTTP/1.1" 500 84904
+ERROR 2024-05-08 23:44:00,730 log 15720 10568 Internal Server Error: /edit_commodity/1/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 53, in edit_commodity
+    return render(request, 'myapp/edit_commodity.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/edit_commodity.html
+ERROR 2024-05-08 23:44:00,733 basehttp 15720 10568 "GET /edit_commodity/1/ HTTP/1.1" 500 85041
+INFO 2024-05-08 23:44:04,452 autoreload 1576 20560 Watching for file changes with StatReloader
+ERROR 2024-05-08 23:44:08,519 log 1576 23560 Internal Server Error: /edit_commodity/1/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 53, in edit_commodity
+    return render(request, 'myapp/edit_commodity.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/edit_commodity.html
+ERROR 2024-05-08 23:44:08,522 basehttp 1576 23560 "GET /edit_commodity/1/ HTTP/1.1" 500 85041
+INFO 2024-05-08 23:45:07,399 autoreload 1576 20560 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-08 23:45:07,772 autoreload 1916 22736 Watching for file changes with StatReloader
+ERROR 2024-05-08 23:45:13,855 log 1916 10220 Internal Server Error: /edit_commodity/1/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 53, in edit_commodity
+    return render(request, 'myapp/edit_commodity.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/edit_commodity.html
+ERROR 2024-05-08 23:45:13,858 basehttp 1916 10220 "GET /edit_commodity/1/ HTTP/1.1" 500 85041
+INFO 2024-05-08 23:45:50,226 autoreload 1916 22736 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-08 23:45:50,630 autoreload 12384 14764 Watching for file changes with StatReloader
+INFO 2024-05-08 23:46:18,601 autoreload 12384 14764 D:\python\django_seminar_3\myproject\myapp\urls.py changed, reloading.
+INFO 2024-05-08 23:46:18,988 autoreload 15344 10684 Watching for file changes with StatReloader
+INFO 2024-05-08 23:46:21,343 autoreload 15344 10684 D:\python\django_seminar_3\myproject\myapp\urls.py changed, reloading.
+INFO 2024-05-08 23:46:21,715 autoreload 14064 20940 Watching for file changes with StatReloader
+ERROR 2024-05-08 23:46:29,245 log 14064 7200 Internal Server Error: /editcommodity/1/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 53, in edit_commodity
+    return render(request, 'myapp/editcommodity.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/editcommodity.html
+ERROR 2024-05-08 23:46:29,248 basehttp 14064 7200 "GET /editcommodity/1/ HTTP/1.1" 500 84872
+INFO 2024-05-08 23:46:38,806 basehttp 14064 7200 "GET /commodity_form HTTP/1.1" 301 0
+ERROR 2024-05-08 23:46:38,826 log 14064 14704 Internal Server Error: /commodity_form/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 42, in commodity_form
+    return render(request, 'myapp/commodity_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/commodity_form.html
+ERROR 2024-05-08 23:46:38,828 basehttp 14064 14704 "GET /commodity_form/ HTTP/1.1" 500 85241
+INFO 2024-05-08 23:47:47,244 autoreload 14064 20940 D:\python\django_seminar_3\myproject\myapp\urls.py changed, reloading.
+INFO 2024-05-08 23:47:47,625 autoreload 4172 9580 Watching for file changes with StatReloader
+ERROR 2024-05-08 23:47:53,532 log 4172 6476 Internal Server Error: /editcommodity/1/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: edit_commodity() got an unexpected keyword argument 'name_id'
+ERROR 2024-05-08 23:47:53,534 basehttp 4172 6476 "GET /editcommodity/1/ HTTP/1.1" 500 65686
+INFO 2024-05-08 23:48:02,440 autoreload 4172 9580 D:\python\django_seminar_3\myproject\myapp\urls.py changed, reloading.
+INFO 2024-05-08 23:48:02,811 autoreload 24412 7416 Watching for file changes with StatReloader
+ERROR 2024-05-08 23:48:05,864 log 24412 4356 Internal Server Error: /editcommodity/1/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 53, in edit_commodity
+    return render(request, 'myapp/editcommodity.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/editcommodity.html
+ERROR 2024-05-08 23:48:05,867 basehttp 24412 4356 "GET /editcommodity/1/ HTTP/1.1" 500 85009
+INFO 2024-05-08 23:48:10,460 autoreload 24412 7416 D:\python\django_seminar_3\myproject\myapp\urls.py changed, reloading.
+INFO 2024-05-08 23:48:10,852 autoreload 25804 21212 Watching for file changes with StatReloader
+INFO 2024-05-08 23:48:14,274 autoreload 25804 21212 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-08 23:48:14,652 autoreload 12224 2196 Watching for file changes with StatReloader
+INFO 2024-05-08 23:49:12,315 autoreload 12224 2196 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-08 23:49:12,690 autoreload 5748 23272 Watching for file changes with StatReloader
+ERROR 2024-05-08 23:49:19,441 log 5748 7428 Internal Server Error: /edit_commodity/1/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 53, in edit_commodity
+    return render(request, 'edit_commodity.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: edit_commodity.html
+ERROR 2024-05-08 23:49:19,444 basehttp 5748 7428 "GET /edit_commodity/1/ HTTP/1.1" 500 84784
+WARNING 2024-05-08 23:49:58,295 log 5748 7428 Not Found: /orders_filtered
+WARNING 2024-05-08 23:49:58,295 basehttp 5748 7428 "GET /orders_filtered HTTP/1.1" 404 3087
+INFO 2024-05-08 23:50:05,302 basehttp 5748 7428 "GET /orders_filtered/2/ HTTP/1.1" 200 1326
+INFO 2024-05-08 23:50:35,241 autoreload 5748 23272 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-08 23:50:35,646 autoreload 25968 14780 Watching for file changes with StatReloader
+ERROR 2024-05-08 23:50:40,334 log 25968 26120 Internal Server Error: /edit_commodity/1/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 53, in edit_commodity
+    return render(request, 'myapp/edit_commodity.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/edit_commodity.html
+ERROR 2024-05-08 23:50:40,337 basehttp 25968 26120 "GET /edit_commodity/1/ HTTP/1.1" 500 85041
+ERROR 2024-05-08 23:51:32,030 log 25968 26120 Internal Server Error: /edit_commodity/1/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 53, in edit_commodity
+    return render(request, 'myapp/edit_commodity.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/edit_commodity.html
+ERROR 2024-05-08 23:51:32,032 basehttp 25968 26120 "GET /edit_commodity/1/ HTTP/1.1" 500 85041
+INFO 2024-05-08 23:51:42,748 autoreload 25968 14780 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-08 23:51:43,209 autoreload 7428 24416 Watching for file changes with StatReloader
+ERROR 2024-05-08 23:51:45,623 log 7428 11624 Internal Server Error: /edit_commodity/1/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: myapp/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 53, in edit_commodity
+    return render(request, 'edit_commodity.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: myapp/base.html
+ERROR 2024-05-08 23:51:45,629 basehttp 7428 11624 "GET /edit_commodity/1/ HTTP/1.1" 500 136024
+INFO 2024-05-08 23:52:10,499 basehttp 7428 11624 "GET /edit_commodity/1/ HTTP/1.1" 200 1433
+INFO 2024-05-08 23:52:18,607 basehttp 7428 11624 "GET /edit_commodity/3/ HTTP/1.1" 200 1433
+INFO 2024-05-08 23:52:40,583 basehttp 7428 11624 "GET /orders_filtered/2/ HTTP/1.1" 200 1326
+INFO 2024-05-08 23:52:56,449 autoreload 7428 24416 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-08 23:52:56,827 autoreload 23776 15588 Watching for file changes with StatReloader
+ERROR 2024-05-08 23:53:01,216 log 23776 4172 Internal Server Error: /orders_filtered/2/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 32, in user_orders_filtered
+    return render(request, 'orders_filtered.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: orders_filtered.html
+ERROR 2024-05-08 23:53:01,219 basehttp 23776 4172 "GET /orders_filtered/2/ HTTP/1.1" 500 88513
+INFO 2024-05-08 23:53:09,582 autoreload 23776 15588 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-08 23:53:09,966 autoreload 21192 22596 Watching for file changes with StatReloader
+ERROR 2024-05-08 23:53:26,282 log 21192 14448 Internal Server Error: /commodity_form/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 42, in commodity_form
+    return render(request, 'myapp/commodity_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/commodity_form.html
+ERROR 2024-05-08 23:53:26,285 basehttp 21192 14448 "GET /commodity_form/ HTTP/1.1" 500 85842
+INFO 2024-05-08 23:53:33,973 autoreload 21192 22596 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-08 23:53:34,355 autoreload 21888 20648 Watching for file changes with StatReloader
+INFO 2024-05-08 23:54:44,606 basehttp 21888 2828 "GET /commodity_form/ HTTP/1.1" 200 1115
+ERROR 2024-05-08 23:55:01,390 log 21888 2828 Internal Server Error: /commodity_form/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 38, in commodity_form
+    form.save()
+    ^^^^^^^^^
+AttributeError: 'CommodityForm' object has no attribute 'save'
+ERROR 2024-05-08 23:55:01,393 basehttp 21888 2828 "POST /commodity_form/ HTTP/1.1" 500 71394
+INFO 2024-05-08 23:57:21,343 autoreload 21888 20648 D:\python\django_seminar_3\myproject\myapp\forms.py changed, reloading.
+INFO 2024-05-08 23:57:21,737 autoreload 24008 22452 Watching for file changes with StatReloader
+INFO 2024-05-08 23:57:25,089 autoreload 24008 22452 D:\python\django_seminar_3\myproject\myapp\forms.py changed, reloading.
+INFO 2024-05-08 23:57:25,452 autoreload 22916 24964 Watching for file changes with StatReloader
+ERROR 2024-05-08 23:57:31,862 log 22916 16704 Internal Server Error: /commodity_form/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 36, in commodity_form
+    form = CommodityForm(request.POST, request.FILES)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\models.py", line 360, in __init__
+    raise ValueError("ModelForm has no model class specified.")
+ValueError: ModelForm has no model class specified.
+ERROR 2024-05-08 23:57:31,864 basehttp 22916 16704 "POST /commodity_form/ HTTP/1.1" 500 77695
+INFO 2024-05-08 23:57:39,239 autoreload 22916 24964 D:\python\django_seminar_3\myproject\myapp\forms.py changed, reloading.
+INFO 2024-05-08 23:57:39,643 autoreload 13160 26156 Watching for file changes with StatReloader
+ERROR 2024-05-08 23:57:42,002 log 13160 26396 Internal Server Error: /commodity_form/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 38, in commodity_form
+    form.save()
+    ^^^^^^^^^
+AttributeError: 'CommodityForm' object has no attribute 'save'
+ERROR 2024-05-08 23:57:42,004 basehttp 13160 26396 "POST /commodity_form/ HTTP/1.1" 500 71394
+INFO 2024-05-08 23:57:47,693 basehttp 13160 26396 "GET /commodity_form/ HTTP/1.1" 200 1115
+INFO 2024-05-08 23:58:21,250 autoreload 13160 26156 D:\python\django_seminar_3\myproject\myapp\forms.py changed, reloading.
+INFO 2024-05-08 23:58:21,624 autoreload 19012 3488 Watching for file changes with StatReloader
+INFO 2024-05-08 23:58:25,993 autoreload 19012 3488 D:\python\django_seminar_3\myproject\myapp\forms.py changed, reloading.
+INFO 2024-05-08 23:58:26,390 autoreload 15256 4444 Watching for file changes with StatReloader
+INFO 2024-05-08 23:58:48,195 autoreload 15256 4444 D:\python\django_seminar_3\myproject\myapp\forms.py changed, reloading.
+INFO 2024-05-08 23:58:48,570 autoreload 23272 7548 Watching for file changes with StatReloader
+INFO 2024-05-08 23:58:51,914 autoreload 23272 7548 D:\python\django_seminar_3\myproject\myapp\forms.py changed, reloading.
+INFO 2024-05-08 23:58:52,293 autoreload 1500 22368 Watching for file changes with StatReloader
+INFO 2024-05-08 23:59:59,166 autoreload 1500 22368 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-08 23:59:59,543 autoreload 6680 26320 Watching for file changes with StatReloader
+ERROR 2024-05-09 00:00:10,413 log 6680 2680 Internal Server Error: /commodity_form/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 41, in commodity_form
+    form = CommodityForm()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\models.py", line 360, in __init__
+    raise ValueError("ModelForm has no model class specified.")
+ValueError: ModelForm has no model class specified.
+ERROR 2024-05-09 00:00:10,416 basehttp 6680 2680 "GET /commodity_form/ HTTP/1.1" 500 75910
+ERROR 2024-05-09 00:00:21,235 log 6680 2680 Internal Server Error: /edit_commodity/3/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 50, in edit_commodity
+    return redirect('commodity_list')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'commodity_list' not found. 'commodity_list' is not a valid view function or pattern name.
+ERROR 2024-05-09 00:00:21,238 basehttp 6680 2680 "POST /edit_commodity/3/ HTTP/1.1" 500 90815
+INFO 2024-05-09 00:00:39,961 autoreload 6680 26320 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:00:40,347 autoreload 8408 7608 Watching for file changes with StatReloader
+ERROR 2024-05-09 00:00:43,691 log 8408 15992 Internal Server Error: /edit_commodity/3/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 50, in edit_commodity
+    return redirect('home')
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+ERROR 2024-05-09 00:00:43,694 basehttp 8408 15992 "POST /edit_commodity/3/ HTTP/1.1" 500 90615
+INFO 2024-05-09 00:00:56,190 autoreload 8408 7608 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:00:56,567 autoreload 13304 12868 Watching for file changes with StatReloader
+INFO 2024-05-09 00:00:58,939 autoreload 13304 12868 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:00:59,357 autoreload 25216 3028 Watching for file changes with StatReloader
+INFO 2024-05-09 00:01:01,437 basehttp 25216 22668 "POST /edit_commodity/3/ HTTP/1.1" 302 0
+WARNING 2024-05-09 00:01:01,447 log 25216 22668 Not Found: /edit_commodity/3/home.html
+WARNING 2024-05-09 00:01:01,448 basehttp 25216 22668 "GET /edit_commodity/3/home.html HTTP/1.1" 404 3120
+INFO 2024-05-09 00:01:16,193 autoreload 25216 3028 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:01:16,625 autoreload 5940 20940 Watching for file changes with StatReloader
+WARNING 2024-05-09 00:01:18,302 log 5940 16076 Not Found: /edit_commodity/3/home.html
+WARNING 2024-05-09 00:01:18,302 basehttp 5940 16076 "GET /edit_commodity/3/home.html HTTP/1.1" 404 3120
+WARNING 2024-05-09 00:01:21,823 log 5940 16076 Not Found: /edit_commodity/3/home.html
+WARNING 2024-05-09 00:01:21,824 basehttp 5940 16076 "GET /edit_commodity/3/home.html HTTP/1.1" 404 3120
+INFO 2024-05-09 00:01:25,867 basehttp 5940 16076 "GET /edit_commodity/3 HTTP/1.1" 301 0
+INFO 2024-05-09 00:01:25,892 basehttp 5940 2220 "GET /edit_commodity/3/ HTTP/1.1" 200 1433
+ERROR 2024-05-09 00:01:31,345 log 5940 2220 Internal Server Error: /edit_commodity/3/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 50, in edit_commodity
+    return redirect('')
+           ^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+ERROR 2024-05-09 00:01:31,348 basehttp 5940 2220 "POST /edit_commodity/3/ HTTP/1.1" 500 90519
+INFO 2024-05-09 00:02:41,250 autoreload 5940 20940 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:02:41,628 autoreload 1968 1232 Watching for file changes with StatReloader
+INFO 2024-05-09 00:02:45,003 autoreload 1968 1232 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:02:45,390 autoreload 372 9952 Watching for file changes with StatReloader
+ERROR 2024-05-09 00:02:47,145 log 372 18452 Internal Server Error: /edit_commodity/3/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 50, in edit_commodity
+    return redirect(request, 'home.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '<WSGIRequest: POST '/edit_commodity/3/'>' not found. '<WSGIRequest: POST '/edit_commodity/3/'>' is not a valid view function or pattern name.
+ERROR 2024-05-09 00:02:47,148 basehttp 372 18452 "POST /edit_commodity/3/ HTTP/1.1" 500 90752
+INFO 2024-05-09 00:04:11,936 autoreload 372 9952 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:04:12,321 autoreload 21068 16860 Watching for file changes with StatReloader
+INFO 2024-05-09 00:04:13,668 autoreload 21068 16860 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:04:14,042 autoreload 23900 9772 Watching for file changes with StatReloader
+INFO 2024-05-09 00:04:23,560 autoreload 23900 9772 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:04:23,965 autoreload 1816 5864 Watching for file changes with StatReloader
+ERROR 2024-05-09 00:04:26,025 log 1816 18612 Internal Server Error: /edit_commodity/3/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 50, in edit_commodity
+    return redirect('home')
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+ERROR 2024-05-09 00:04:26,028 basehttp 1816 18612 "POST /edit_commodity/3/ HTTP/1.1" 500 90615
+INFO 2024-05-09 00:05:25,912 autoreload 1816 5864 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:05:26,386 autoreload 15504 4356 Watching for file changes with StatReloader
+ERROR 2024-05-09 00:05:30,046 log 15504 21596 Internal Server Error: /edit_commodity/3/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 50, in edit_commodity
+    return redirect('index')
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+ERROR 2024-05-09 00:05:30,048 basehttp 15504 21596 "POST /edit_commodity/3/ HTTP/1.1" 500 90617
+ERROR 2024-05-09 00:05:43,453 log 15504 21596 Internal Server Error: /edit_commodity/3/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 50, in edit_commodity
+    return redirect('index')
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+ERROR 2024-05-09 00:05:43,455 basehttp 15504 21596 "POST /edit_commodity/3/ HTTP/1.1" 500 90617
+INFO 2024-05-09 00:07:21,631 autoreload 15504 4356 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:07:22,002 autoreload 13304 26140 Watching for file changes with StatReloader
+INFO 2024-05-09 00:07:25,400 autoreload 13304 26140 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:07:25,769 autoreload 13888 24664 Watching for file changes with StatReloader
+INFO 2024-05-09 00:07:44,501 autoreload 13888 24664 D:\python\django_seminar_3\myproject\myapp\views.py changed, reloading.
+INFO 2024-05-09 00:07:44,894 autoreload 7288 25668 Watching for file changes with StatReloader
+INFO 2024-05-09 00:08:32,336 autoreload 21216 17344 Watching for file changes with StatReloader
+INFO 2024-05-09 00:08:36,456 basehttp 21216 13396 "POST /edit_commodity/3/ HTTP/1.1" 302 0
+INFO 2024-05-09 00:08:36,461 basehttp 21216 13396 "GET / HTTP/1.1" 200 261
+ERROR 2024-05-09 00:08:48,435 log 21216 13396 Internal Server Error: /commodity_form/
+Traceback (most recent call last):
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\django_seminar_3\myproject\myapp\views.py", line 38, in commodity_form
+    form = CommodityForm()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Nick\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\forms\models.py", line 360, in __init__
+    raise ValueError("ModelForm has no model class specified.")
+ValueError: ModelForm has no model class specified.
+ERROR 2024-05-09 00:08:48,437 basehttp 21216 13396 "GET /commodity_form/ HTTP/1.1" 500 75764
+INFO 2024-05-09 00:09:40,928 basehttp 21216 13396 "GET /edit_commodity/3/ HTTP/1.1" 200 1433
+INFO 2024-05-09 00:09:45,491 basehttp 21216 13396 "POST /edit_commodity/3/ HTTP/1.1" 302 0
+INFO 2024-05-09 00:09:45,495 basehttp 21216 13396 "GET / HTTP/1.1" 200 261
+INFO 2024-05-09 00:11:23,052 autoreload 21216 17344 D:\python\django_seminar_3\myproject\myapp\forms.py changed, reloading.
+INFO 2024-05-09 00:11:23,429 autoreload 25668 7288 Watching for file changes with StatReloader
+INFO 2024-05-09 00:11:27,850 autoreload 25668 7288 D:\python\django_seminar_3\myproject\myapp\forms.py changed, reloading.
+INFO 2024-05-09 00:11:28,227 autoreload 19108 8420 Watching for file changes with StatReloader
+INFO 2024-05-09 00:11:31,557 autoreload 19108 8420 D:\python\django_seminar_3\myproject\myapp\forms.py changed, reloading.
+INFO 2024-05-09 00:11:31,934 autoreload 26164 1916 Watching for file changes with StatReloader
+INFO 2024-05-09 00:11:48,576 basehttp 26164 11384 "GET /commodity_form/ HTTP/1.1" 200 1115
+INFO 2024-05-09 00:12:12,305 basehttp 26164 11384 "GET /commodity_form/ HTTP/1.1" 200 1129
+INFO 2024-05-09 00:12:22,617 basehttp 26164 11384 "POST /commodity_form/ HTTP/1.1" 302 0
+INFO 2024-05-09 00:12:22,622 basehttp 26164 11384 "GET / HTTP/1.1" 200 261
+INFO 2024-05-09 00:13:04,413 basehttp 26164 11384 "GET /commodity_form/ HTTP/1.1" 200 1129
+INFO 2024-05-09 00:14:01,966 basehttp 26164 11384 "POST /commodity_form/ HTTP/1.1" 302 0
+INFO 2024-05-09 00:14:01,970 basehttp 26164 11384 "GET / HTTP/1.1" 200 261
